@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--==================== Favicon ========================-->
+    <link rel="icon" href="assets/img/letra-p.png" type="image/png">
+    <title>Pedro Otávio</title>
+
+    <!--============ Fontshare ==============-->
+    <link href="https://api.fontshare.com/v2/css?f[]=satoshi@700,500,400&display=swap" rel="stylesheet">
+
+
+    <!--============ Remixicon ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+
+    <!--============ Swiper CSS ===============-->
+    <link rel="stylesheet" href="assets/lib/swiper/css/swiper-bundle.min.css">
+
+    <!--============ Main CSS ===============-->
+    <link rel="stylesheet" href="assets/css/main.css">
+
+</head>
+
+<body>
+    <!--==================== Header ========================-->
+    <header id="header" class="header">
+        <nav class="nav container">
+            <a href="#home" class="nav__brand">Pedro</a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link nav__link--active">Sobre</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#blog" class="nav__link">Portfólio</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#footer" class="nav__link">Contato</a>
+                    </li>
+                </ul>
+                <span class="nav__close">
+                    <i id="nav-close" class="ri-close-line"></i>
+                </span>
+            </div>
+            <span class="nav__open">
+                <i id="nav-open" class="ri-menu-3-line"></i>
+            </span>
+        </nav>
+    </header>
+
+    <!--==================== Main ========================-->
+    <main class="main">
+        <section id="home" class="home">
+            <div class="d-grid home__wrapper container">
+                <div class="home__content">
+                    <div class="home__social">
+                        <ul class="social__list">
+                            <li class="social__item">
+                                <a href="https://www.linkedin.com/in/pedrootaviofreire/" target="_blank" class="social__link">
+                                    <i class="ri-linkedin-line"></i>
+                                </a>
+                            </li>
+                            <li class="social__item">
+                                <a href="https://github.com/pedroofreirereis" target="_blank" class="social__link">
+                                    <i class="ri-github-line"></i>
+                                </a>
+                            </li>
+                            <li class="social__item">
+                                <a href="https://medium.com/@pdotvfrs" target="_blank" class="social__link">
+                                    <i class="ri-medium-line"></i>
+                                </a>
+                            </li>
+                            <li class="social__item">
+                                <a href="https://www.instagram.com/pedroofreirereis/" target="_blank" class="social__link">
+                                    <i class="ri-instagram-line"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="home__info">
+                        <h1 class="home__name">Pedro Otávio<br>
+                            Freire Reis
+                        </h1>
+                        <p class="home__profession">Jornalista & Analista de Dados</p>
+                        <p class="home__description">
+                            A interseção entre comunicação e análise de
+                            dados é uma combinação poderosa, capaz de impulsionar
+                            resultados e contar histórias impactantes.
+                        </p>
+                        <div class="home__buttons">
+                            <a href="#footer" class="btn btn--outline">Contato</a>
+                            <a href="#blog" class="btn--line">Veja meu trabalho</a>
+                        </div>
+                    </div>
+                </div>
+                <img src="assets/img/home2.png" alt="Pedro Otávio" class="home__img">
+            </div>
+        </section>
+
+        <!--==================== About ========================-->
+        <section id="about" class="section about">
+            <div class="d-grid about__wrapper container">
+                <div class="about__content">
+                    <h2 class="about__title">Sobre</h2>
+                    <p class="about__description">Sou um jornalista graduado pela Universidade Federal de Ouro Preto. 
+                        Ao longo da minha formação e experiência profissional, desenvolvi habilidades em edição e criação de conteúdo.
+                    </br>
+                    </br>
+                        Recentemente, decidi ingressar no MBA em Data Science e Analytics da USP/ESALQ. Meu interesse pela área 
+                        surgiu durante a graduação, quando me deparei com as possibilidades de extrair informações valiosas por 
+                        meio de novas tecnologias.
+                    </br>
+                    </br>    
+                        Em um mundo cada vez mais orientado por dados, é indispensável possuir habilidades analíticas, especialmente 
+                        para empresas e organizações. Ter a capacidade de coletar, processar e analisar informações é essencial para 
+                        tomar decisões estratégicas e alcançar melhores resultados.</p>
+                        <a href="https://raw.githubusercontent.com/pedroofreirereis/pedrootaviofreire/main/PEDRO OTÁVIO FREIRE REIS.pdf" class="btn btn--primary" download="CurrículoPedroOtávio.pdf">Currículo</a>
+                </div>
+                <img src="assets/img/meabout.jpg" alt="" class="about__img">
+            </div>
+        </section>
+
+        <!--==================== Blog ========================-->
+        <section id="blog" class="section__blog blog">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">Portfólio</h2>
+                    <p class="section__description">Projetos pessoais nos quais busquei explorar as habilidades necessárias de um analista de dados.</p>
+                </div>
+            </div>
+            <div class="d-grid blog__wrapper container">
+                <!--=========== blog 1 ============-->
+                <div class="blog__card">
+                    <div class="blog__img-wrapper">
+                        <a href="https://www.kaggle.com/code/pedrootviofreirereis/an-lise-dos-atributos-musicais" target="_blank">
+                            <img src="assets/img/spotify.png" alt="" class="blog__img">
+                        </a>
+                    </div>
+                    <div class="blog__content">
+                        <h3 class="blog__title"><a href="Análise dos Atributos Musicais.html">Análise Exploratória de Atributos Musicais</a></h3>
+                        <p class="blog__description">Um estudo das relações entre atributos musicais e gêneros populares.</p>
+                    </div>
+                    <div class="blog__footer">
+                        <span class="blog__category">Python</span>
+                    </div>
+                </div>
+                <!--=========== blog 2 ============-->
+                <div class="blog__card">
+                    <div class="blog__img-wrapper">
+                        <a href="https://www.kaggle.com/code/pedrootviofreirereis/explorando-o-cat-logo-da-netflix" target="_blank">
+                            <img src="assets/img/netflix.png" alt="" class="blog__img">
+                        </a>
+                    </div>
+                    <div class="blog__content">
+                        <h3 class="blog__title"><a href="Explorando o Catálogo da Netflix.html">Análise Exploratória do Catálogo da Netflix</a></h3>
+                        <p class="blog__description">Análise tendências e padrões dos filmes e séries do catálogo da Netflix.</p>
+                    </div>
+                    <div class="blog__footer">
+                        <span class="blog__category">Python</span>
+                    </div>
+                </div>
+                
+                <!--=========== blog 3 ============-->
+                <div class="blog__card">
+                    <div class="blog__img-wrapper">
+                        <a href="https://www.kaggle.com/code/pedrootviofreirereis/an-lise-de-sentimento-em-python" target="_blank">
+                        <img src="assets/img/amazon.png" alt="" class="blog__img">
+                        </a>
+                    </div>
+                    <div class="blog__content">
+                        <h3 class="blog__title"><a href="Análise de Sentimento em Pyhton.html">Análise de Sentimento em Python</a></h3>
+                        <p class="blog__description">Este projeto envolve a realização de técnicas de NLP usando o pacote NLTK, 
+                            em dados de avaliação de produtos alimentícios disponíveis na Amazon.</p>
+                    </div>
+                    <div class="blog__footer">
+                        <span class="blog__category">Python, NLP</span>
+                    </div>
+                </div>
+
+                <!--=========== blog 4 ============-->
+                <div class="blog__card">
+                    <div class="blog__img-wrapper">
+                        <a href="https://medium.com/@pdotvfrs/an%C3%A1lise-de-engajamento-e-intera%C3%A7%C3%A3o-em-streaming-de-jogos-na-twitch-f85fc422746e" target="_blank">
+                        <img src="assets/img/twitch.png" alt="" class="blog__img">
+                        </a>
+                    </div>
+                    <div class="blog__content">
+                        <h3 class="blog__title"><a href="Análise de Engajamento e Interação.html">Engajamento e Interação na Twitch</a></h3>
+                        <p class="blog__description">Análise a partir de dados sobre o engajamento 
+                            e interação dos espectadores em transmissões de jogos na Twitch.</p>
+                    </div>
+                    <div class="blog__footer">
+                        <span class="blog__category">SQL, Power BI </span>
+                        
+                    </div>
+                </div>
+
+                <!--=========== blog 5 ============-->
+                <div class="blog__card">
+                    <div class="blog__img-wrapper">
+                        <a href="https://medium.com/@pdotvfrs/an%C3%A1lise-de-vendas-com-sql-e-power-bi-fa95e2d29b01" target="_blank">
+                            <img src="assets/img/salesreport.png" alt="" class="blog__img" target="_blank">
+                          </a>
+                    </div>
+                    <div class="blog__content">
+                        <h3 class="blog__title"><a href="Análise de vendas.html">Análise de Vendas</a></h3>
+                        <p class="blog__description">O projeto foi pensado a partir de possiveis demandas que seriam feitas 
+                            para um Analista de Dados durantes o seu dia a dia.</p>
+                    </div>
+                    <div class="blog__footer">
+                        <span class="blog__category">SQL, Power BI </span>
+                        
+                    </div>
+                </div>
+
+                <!--=========== blog 6 ============-->
+                <div class="blog__card">
+                    <div class="blog__img-wrapper">
+                        <a href="https://medium.com/@pdotvfrs/an%C3%A1lise-dos-jogos-ol%C3%ADmpicos-de-ver%C3%A3o-9dbfe7469142" target="_blank">
+                        <img src="assets/img/olympics.png" alt="" class="blog__img">
+                        </a>
+                    </div>
+                    <div class="blog__content">
+                        <h3 class="blog__title"><a href="Análise dos Jogos Olímpicos de Verão.html">Jogos Olímpicos de Verão</a></h3>
+                        <p class="blog__description">O projeto visa criar uma visualização de dados dos Jogos Olímpicos de Verão 
+                            para entender o desempenho histórico dos países e fornecer informações sobre os competidores.</p>
+                    </div>
+                    <div class="blog__footer">
+                        <span class="blog__category">SQL, Power BI</span>
+                        
+                    </div>
+                </div>    
+                </div>
+            </div>
+        </section>
+    </main>
+
+    
+    <!--==================== Footer ========================-->
+    <footer id="footer" class="footer section">
+        <div class="footer__wrapper container">
+            <div class="footer__content">
+                <span class="footer__subtitle">Entre em Contato</span>
+                <h2 class="footer__title">Vamos conversar!</h2>
+                <p class="footer__description">Acredito que minha combinação de habilidades me tornam um candidato forte para qualquer equipe. 
+                    No entanto, tenho consciência de que ainda tenho muito a aprender e estou em busca de oportunidades para me 
+                    desenvolver como profissional.</p>
+                <a href="mailto:pedroofreirereis@gmail.com" class="btn--line">Envie um email</a>
+            </div>
+            <div class="footer__contact">
+                <div class="footer__social">
+                    <ul class="social__list">
+                        <li class="social__item">
+                            <a href="https://www.linkedin.com/in/pedrootaviofreire/" target="_blank" class="social__link">
+                                <i class="ri-linkedin-line"></i>
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a href="https://github.com/pedroofreirereis" target="_blank" class="social__link">
+                                <i class="ri-github-line"></i>
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a href="https://medium.com/@pdotvfrs" target="_blank" class="social__link">
+                                <i class="ri-medium-line"></i>
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a href="https://www.instagram.com/pedroofreirereis/" target="_blank" class="social__link">
+                                <i class="ri-instagram-line"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <a class="footer__contact-item">pedroofreirereis@gmail.com</a>
+                <a class="footer__contact-item">(84) 9 9141-8189</a>
+            </div>
+        </div>
+    </footer>
+    <a href="#" class="scrolltop" id="scrolltop">
+        <i class="ri-arrow-up-s-line"></i>
+    </a>
+    <!--============ Swiper  ===============-->
+    <script src="assets/lib/swiper/js/swiper-bundle.min.js"></script>
+
+    <!--============ ScrollReveal ===============-->
+    <script src="assets/lib/scrollreveal/scrollreveal.min.js"></script>
+
+    <!--============ Main Js ===============-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
